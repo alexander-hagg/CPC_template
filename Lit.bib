@@ -1,0 +1,389 @@
+============================== FIRST RELATED WORK OVERVIEW
+
+@article{kadupitiya2020machine,
+  title={Machine learning surrogates for molecular dynamics simulations of soft materials},
+  author={Kadupitiya, JCS and Sun, Fanbo and Fox, Geoffrey and Jadhao, Vikram},
+  journal={Journal of Computational Science},
+  pages={101107},
+  year={2020},
+  publisher={Elsevier}
+}
+
+@article{razi2020force,
+  title={Force-field coefficient optimization of coarse-grained molecular dynamics models with a small computational budget},
+  author={Razi, M and Narayan, A and Kirby, RM and Bedrov, D},
+  journal={Computational Materials Science},
+  volume={176},
+  pages={109518},
+  year={2020},
+  publisher={Elsevier}
+}
+
+@article{ericcok2019gaussian,
+  title={Gaussian process and design of experiments for surrogate modeling of optical properties of fractal aggregates},
+  author={Eri{\c{c}}ok, Ozan Burak and {\"O}zbek, Atay Kaan and Cemgil, Ali Taylan and Ert{\"u}rk, Hakan},
+  journal={Journal of Quantitative Spectroscopy and Radiative Transfer},
+  volume={239},
+  pages={106643},
+  year={2019},
+  publisher={Elsevier}
+}
+
+
+@article{rizzi2012uncertainty,
+  title={Uncertainty quantification in MD simulations. Part II: Bayesian inference of force-field parameters},
+  author={Rizzi, Francesco and Najm, Habib N and Debusschere, Bert J and Sargsyan, Khachik and Salloum, Maher and Adalsteinsson, Helgi and Knio, Omar M},
+  journal={Multiscale Modeling \& Simulation},
+  volume={10},
+  number={4},
+  pages={1460--1492},
+  year={2012},
+  publisher={SIAM}
+}
+
+
+@article{liu2013gaussian,
+  title={A Gaussian process surrogate model assisted evolutionary algorithm for medium scale expensive optimization problems},
+  author={Liu, Bo and Zhang, Qingfu and Gielen, Georges GE},
+  journal={IEEE Transactions on Evolutionary Computation},
+  volume={18},
+  number={2},
+  pages={180--192},
+  year={2013},
+  publisher={IEEE}
+}
+
+@article{burn2020creating,
+  title={Creating Gaussian process regression models for molecular simulations using adaptive sampling},
+  author={Burn, Matthew J and Popelier, Paul LA},
+  journal={The Journal of Chemical Physics},
+  volume={153},
+  number={5},
+  pages={054111},
+  year={2020},
+  publisher={AIP Publishing LLC}
+}
+
+
+@article{bajer2019gaussian,
+  title={Gaussian process surrogate models for the CMA evolution strategy},
+  author={Bajer, Luk{\'a}{\v{s}} and Pitra, Zbyn{\v{e}}k and Repick{\`y}, Jakub and Hole{\v{n}}a, Martin},
+  journal={Evolutionary computation},
+  volume={27},
+  number={4},
+  pages={665--697},
+  year={2019},
+  publisher={MIT Press}
+}
+
+
+==============================
+How is MM/MD ``done'' in reality, currently? (Robin)
+@Article{Aleman1991,
+  Title                    = {A new strategy for the evaluation of force parameters from quantum mechanical computations},
+  Author                   = {Alemán, Carlos and Canela, Enric I. and Franco, Rafael and Orozco, Modesto},
+  Journal                  = {Journal of Computational Chemistry},
+  Year                     = {1991},
+  Number                   = {6},
+  Pages                    = {664--674},
+  Volume                   = {12},
+  Doi                      = {10.1002/jcc.540120603},
+  ISSN                     = {1096-987X},
+  Publisher                = {John Wiley \& Sons, Inc.},
+  Url                      = {http://dx.doi.org/10.1002/jcc.540120603}
+}
+
+@article{Jorgensen1996,
+  author = {Jorgensen, William L. and Maxwell, David S. and Tirado-Rives, Julian},
+  title = {Development and Testing of the OPLS All-Atom Force Field on Conformational Energetics and Properties of Organic Liquids},
+  journal = {Journal of the American Chemical Society},
+  volume = {118},
+  number = {45},
+  pages = {11225-11236},
+  year = {1996},
+  doi = {10.1021/ja9621760},
+  URL = {https://doi.org/10.1021/ja9621760},
+  eprint = {https://doi.org/10.1021/ja9621760}
+}
+
+@Article{Norrby1998,
+  Title                    = {Automated molecular mechanics parameterization with simultaneous utilization of experimental and quantum mechanical data},
+  Author                   = {Norrby, Per-Ola and Liljefors, Tommy},
+  Journal                  = {Journal of Computational Chemistry},
+  Year                     = {1998},
+  Number                   = {10},
+  Pages                    = {1146--1166},
+  Volume                   = {19},
+
+  Doi                      = {10.1002/(SICI)1096-987X(19980730)19:10<1146::AID-JCC4>3.0.CO;2-M},
+  ISSN                     = {1096-987X},
+  Keywords                 = {automatic parameterization, force field development, molecular mechanics, MM3, Newton–Raphson and simplex optimization},
+  Publisher                = {John Wiley \& Sons, Inc.},
+  Url                      = {http://dx.doi.org/10.1002/(SICI)1096-987X(19980730)19:10<1146::AID-JCC4>3.0.CO;2-M}
+}
+
+@Article{Huelsmann2010a,
+  Title                    = {Automated force field optimisation of small molecules using a gradient-based workflow package},
+  Author                   = { Marco Hülsmann and Thomas J. Müller and Thorsten Ködderman and Dirk Reith },
+  Journal                  = {Molecular Simulation},
+  Year                     = {2010},
+  Number                   = {14},
+  Pages                    = {1182-1196},
+  Volume                   = {36},
+
+  Doi                      = {10.1080/08927022.2010.513974},
+  Eprint                   = {https://doi.org/10.1080/08927022.2010.513974},
+  Publisher                = {Taylor \& Francis},
+  Url                      = {https://doi.org/10.1080/08927022.2010.513974}
+}
+
+@Article{Reith2011,
+  Title                    = {A modern workflow for force-field development – Bridging quantum mechanics and atomistic computational models},
+  Author                   = {Dirk Reith and Karl N. Kirschner},
+  Journal                  = {Computer Physics Communications},
+  Year                     = {2011},
+  Number                   = {10},
+  Pages                    = {2184 - 2191},
+  Volume                   = {182},
+
+  Doi                      = {https://doi.org/10.1016/j.cpc.2011.05.018},
+  ISSN                     = {0010-4655},
+  Keywords                 = {Atomistic force fields, Parameter optimization, Scientific workflows, Multiscale modeling},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0010465511002086}
+}
+
+@article{Siu2012,
+author = {Siu, Shirley W. I. and Pluhackova, Kristyna and Böckmann, Rainer A.},
+title = {Optimization of the OPLS-AA Force Field for Long Hydrocarbons},
+journal = {Journal of Chemical Theory and Computation},
+volume = {8},
+number = {4},
+pages = {1459-1470},
+year = {2012},
+doi = {10.1021/ct200908r},
+note ={PMID: 26596756},
+URL = {https://doi.org/10.1021/ct200908r},
+eprint = {https://doi.org/10.1021/ct200908r}
+}
+
+@Article{Stoebener2014,
+  Title                    = {Multicriteria optimization of molecular force fields by Pareto approach},
+  Author                   = {K. Stöbener and P. Klein and S. Reiser and M. Horsch and K.-H. Küfer and H. Hasse},
+  Journal                  = {Fluid Phase Equilibria},
+  Year                     = {2014},
+  Number                   = {Supplement C},
+  Pages                    = {100 - 108},
+  Volume                   = {373},
+  Doi                      = {https://doi.org/10.1016/j.fluid.2014.04.009},
+  ISSN                     = {0378-3812},
+  Keywords                 = {Pareto optimization, Force field models, Lennard-Jones fluid},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0378381214002210}
+}
+
+@Article{Vlcek2017,
+  Title                    = {Combining configurational energies and forces for molecular force field optimization},
+  Author                   = {Lukas Vlcek and Weiwei Sun and Paul R. C. Kent},
+  Journal                  = {The Journal of Chemical Physics},
+  Year                     = {2017},
+  Number                   = {16},
+  Pages                    = {161713},
+  Volume                   = {147},
+  Doi                      = {10.1063/1.4986079},
+  Eprint                   = {https://doi.org/10.1063/1.4986079},
+  Url                      = {https://doi.org/10.1063/1.4986079}
+}
+
+@article{Nakata2019,
+  author = {Nakata, Hiroya and Bai, Shandan},
+  title = {Development of a new parameter optimization scheme for a reactive force field based on a machine learning approach},
+  journal = {Journal of Computational Chemistry},
+  volume = {40},
+  number = {23},
+  pages = {2000-2012},
+  keywords = {machine learning, reactive molecular dynamics, chemical vapor deposition},
+  doi = {https://doi.org/10.1002/jcc.25841},
+  url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.25841},
+  eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/jcc.25841},
+  year = {2019}
+}
+
+==============================
+Do approaches exist that algorithmically connect MM and MD? (Max)
+
+==============================
+Two-phased optimization (Lena)
+
+@article{freitag2020multilevel,
+  title={Multilevel surrogate modeling approach for optimization problems with polymorphic uncertain parameters},
+  author={Freitag, Steffen and Edler, Philipp and Kremer, Katharina and Meschke, G{\"u}nther},
+  journal={International Journal of Approximate Reasoning},
+  volume={119},
+  pages={81--91},
+  year={2020},
+  publisher={Elsevier}
+}
+@article{yi2020multi,
+  title={A multi-fidelity RBF surrogate-based optimization framework for computationally expensive multi-modal problems with application to capacity planning of manufacturing systems},
+  author={Yi, Jin and Shen, Yichi and Shoemaker, Christine A},
+  journal={Structural and Multidisciplinary Optimization},
+  volume={62},
+  pages={1787--1807},
+  year={2020},
+  publisher={Springer}
+}
+@article{han2012hierarchical,
+  title={Hierarchical kriging model for variable-fidelity surrogate modeling},
+  author={Han, Zhong-Hua and G{\"o}rtz, Stefan},
+  journal={AIAA journal},
+  volume={50},
+  number={9},
+  pages={1885--1896},
+  year={2012}
+}
+@inproceedings{lam2015multifidelity,
+  title={Multifidelity optimization using statistical surrogate modeling for non-hierarchical information sources},
+  author={Lam, R{\'e}mi and Allaire, Douglas L and Willcox, Karen E},
+  booktitle={56th AIAA/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference},
+  pages={0143},
+  year={2015}
+}
+
+@article{cheng2020hierarchical,
+  title={Hierarchical surrogate model with dimensionality reduction technique for high-dimensional uncertainty propagation},
+  author={Cheng, Kai and Lu, Zhenzhou},
+  journal={International Journal For Numerical Methods In Engineering},
+  volume={121},
+  number={9},
+  pages={2068--2085},
+  year={2020},
+  publisher={Wiley Online Library}
+}
+@article{fernandez2016review,
+  title={Review of multi-fidelity models},
+  author={Fern{\'a}ndez-Godino, M Giselle and Park, Chanyoung and Kim, Nam-Ho and Haftka, Raphael T},
+  journal={arXiv preprint arXiv:1609.07196},
+  year={2016}
+}
+
+@article{ye2018ensemble,
+  title={Ensemble of surrogate based global optimization methods using hierarchical design space reduction},
+  author={Ye, Pengcheng and Pan, Guang and Dong, Zuomin},
+  journal={Structural and Multidisciplinary Optimization},
+  volume={58},
+  number={2},
+  pages={537--554},
+  year={2018},
+  publisher={Springer}
+}
+@article{shi2020multi,
+  title={A multi-fidelity surrogate model based on support vector regression},
+  author={Shi, Maolin and Lv, Liye and Sun, Wei and Song, Xueguan},
+  journal={Structural and Multidisciplinary Optimization},
+  pages={1--13},
+  year={2020},
+  publisher={Springer}
+}
+==============================
+Do approaches exist that connect two levels of theory in (surrogate-assisted) optimization? (Alex)
+
+@article{el2018multiscale,
+  title={Multiscale surrogate modelling of the elastic response of thick composite structures with embedded defects and features},
+  author={El Said, Bassam and Hallett, Stephen R},
+  journal={Composite Structures},
+  volume={200},
+  pages={781--798},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@article{yan2020efficient,
+  title={An efficient multiscale surrogate modelling framework for composite materials considering progressive damage based on artificial neural networks},
+  author={Yan, Shibo and Zou, Xi and Ilkhani, Mohammad and Jones, Arthur},
+  journal={Composites Part B: Engineering},
+  volume={194},
+  pages={108014},
+  year={2020},
+  publisher={Elsevier}
+}
+
+@article{rocha2020fly,
+  title={On-the-fly construction of surrogate constitutive models for concurrent multiscale mechanical analysis through probabilistic machine learning},
+  author={Rocha, IBCM and Kerfriden, P and van der Meer, FP},
+  journal={Journal of Computational Physics: X},
+  pages={100083},
+  year={2020},
+  publisher={Elsevier}
+}
+@article{wirtz2015surrogate,
+  title={Surrogate modeling of multiscale models using kernel methods},
+  author={Wirtz, D and Karajan, N and Haasdonk, B},
+  journal={International Journal for Numerical Methods in Engineering},
+  volume={101},
+  number={1},
+  pages={1--28},
+  year={2015},
+  publisher={Wiley Online Library}
+}
+
+@article{zhou2020generalized,
+  title={A generalized hierarchical co-Kriging model for multi-fidelity data fusion},
+  author={Zhou, Qi and Wu, Yuda and Guo, Zhendong and Hu, Jiexiang and Jin, Peng},
+  journal={Structural and Multidisciplinary Optimization},
+  volume={62},
+  pages={1885--1904},
+  year={2020},
+  publisher={Springer}
+}
+@article{fritzen2019fly,
+  title={On-the-fly adaptivity for nonlinear twoscale simulations using artificial neural networks and reduced order modeling},
+  author={Fritzen, Felix and Fern{\'a}ndez, Mauricio and Larsson, Fredrik},
+  journal={Frontiers in Materials},
+  volume={6},
+  pages={75},
+  year={2019},
+  publisher={Frontiers}
+}
+
+
+
+
+
+
+
+
+@article{mckaya1979,
+  title={Comparison of three methods for selecting values of input variables in the analysis of output from a computer code},
+  author={McKaya, MD and Beckmana, RJ and Conoverb, WJ},
+  journal={Technometrics},
+  volume={21},
+  number={2},
+  pages={239--245},
+  year={1979}
+}
+
+@article{Maxwell1995,
+  author = {Maxwell, David S. and Tirado-Rives, Julian and Jorgensen, William L.},
+  title = {A comprehensive study of the rotational energy profiles of organic systems by ab initio MO theory, forming a basis for peptide torsional parameters},
+  journal = {Journal of Computational Chemistry},
+  volume = {16},
+  number = {8},
+  pages = {984-1010},
+  doi = {https://doi.org/10.1002/jcc.540160807},
+  url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.540160807},
+  eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/jcc.540160807},
+  year = {1995}
+}
+
+@article{Foloppe2000,
+  author = {Foloppe, Nicolas and MacKerell, Jr., Alexander D.},
+  title = {All-atom empirical force field for nucleic acids: I. Parameter optimization based on small molecule and condensed phase macromolecular target data},
+  journal = {Journal of Computational Chemistry},
+  volume = {21},
+  number = {2},
+  pages = {86-104},
+  keywords = {CHARMM, force field, molecular mechanics, empirical, molecular dynamics, DNA, RNA},
+  doi = {https://doi.org/10.1002/(SICI)1096-987X(20000130)21:2<86::AID-JCC2>3.0.CO;2-G},
+  url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/\%28SICI\%291096-987X\%2820000130\%2921\%3A2\%3C86\%3A\%3AAID-JCC2\%3E3.0.CO\%3B2-G},
+  eprint = {https://onlinelibrary.wiley.com/doi/abs/10.1002/\%28SICI\%291096-987X\%2820000130\%2921\%3A2\%3C86\%3A\%3AAID-JCC2\%3E3.0.CO\%3B2-G},
+  year = {2000}
+}
